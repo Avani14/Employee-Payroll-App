@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35em;
+    padding-top: 10em;
+}
+.avatar {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    height: 62px;
+}

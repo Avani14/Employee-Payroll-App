@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form" name="form">
+        <div class="input-fields">
+            <label for="name">Enter Your Name</label>
+            <input type="text" placeholder="eg: Avani Trivedi">
+        </div>
+        <br>
+        <div class="input-fields">
+            <input type="radio" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" name="gender">
+            <label for="male">Male</label>
+        </div>
+        <br>
+        <div class="input-fields">
+            <label for="profile">Add Profile Photo</label>
+            <div class="avatar">
+                <input type="radio" name="avatar">
+                <img id="image" src="images/avatar2.png">
+                <input type="radio" name="avatar">
+                <img id="image" src="images/avatar5.png">
+                <input type="radio" name="avatar">
+                <img id="image" src="images/avatar6.png">
+                <input type="radio" name="avatar">
+                <img id="image" src="images/img_avatar.png">
+                <input type="radio" name="avatar">
+                <img id="image" src="images/img_avatar2.png">
+            </div>
+        </div>
+        <br>
+        <div class="input-fields">
+            <label for="department">Enter Your Department</label>
+            <input type="checkbox" name="dept">
+            <label for="dept">HR</label>
+            <input type="checkbox" name="dept">
+            <label for="dept">IT</label>
+            <input type="checkbox" name="dept">
+            <label for="dept">Sales</label>
+            <input type="checkbox" name="dept">
+            <label for="dept">Finance</label>
+            <input type="checkbox" name="dept">
+            <label for="dept">Other</label>
+        </div>
+        <br>
+        <div class="input-fields">
+            <label for="salary">Select your salary</label>
+
+            <select name="salary" id="salary">
+                <option value="1000">1000</option>
+                <option value="10000">10000</option>
+                <option value="100000">100000</option>
+                <option value="1000000">1000000</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
